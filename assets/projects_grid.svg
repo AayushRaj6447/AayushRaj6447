@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="100%">
+  <defs>
+    <style>
+      .proj-card {
+        fill: #090d14;
+        stroke: #00E5FF;
+        stroke-width: 1.5px;
+        rx: 12px;
+      }
+      .proj-title {
+        font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        fill: #00E5FF;
+        letter-spacing: 1px;
+      }
+      .proj-sub {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #76B900;
+        letter-spacing: 0.5px;
+      }
+      .proj-desc {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 12px;
+        fill: #94A3B8;
+      }
+      .proj-tag {
+        font-family: 'Fira Code', Consolas, monospace;
+        font-size: 11px;
+        fill: #00E5FF;
+      }
+
+      /* Card 1: Micromouse Maze Trace Animation */
+      @keyframes mazeTrace {
+        0% { stroke-dashoffset: 240; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes mousePulse {
+        0%, 100% { r: 4px; fill: #76B900; }
+        50% { r: 7px; fill: #00FF9D; filter: drop-shadow(0 0 6px #00FF9D); }
+      }
+      .c1-path { stroke: #76B900; stroke-width: 2.5; fill: none; stroke-dasharray: 240; animation: mazeTrace 3s infinite linear; }
+      .c1-mouse { animation: mousePulse 1.5s infinite ease-in-out; }
+
+      /* Card 2: ChipNest Routine Tracker Bar Animation */
+      @keyframes barGrow {
+        0%, 100% { width: 30px; }
+        50% { width: 110px; }
+      }
+      .c2-bar { animation: barGrow 2.5s infinite ease-in-out; fill: #00E5FF; rx: 3px; }
+
+      /* Card 3: HemoVerse ECG Pulse Animation */
+      @keyframes ecgDraw {
+        0% { stroke-dashoffset: 180; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .c3-ecg { stroke: #FF3366; stroke-width: 2.5; fill: none; stroke-dasharray: 180; animation: ecgDraw 2s infinite linear; }
+
+      /* Card 4: IoT Firmware Telemetry Bar Graph Animation */
+      @keyframes graphHeight1 { 0%, 100% { height: 15px; y: 45px; } 50% { height: 45px; y: 15px; } }
+      @keyframes graphHeight2 { 0%, 100% { height: 40px; y: 20px; } 50% { height: 20px; y: 40px; } }
+      @keyframes graphHeight3 { 0%, 100% { height: 25px; y: 35px; } 50% { height: 50px; y: 10px; } }
+      .c4-g1 { animation: graphHeight1 2s infinite ease-in-out; fill: #76B900; }
+      .c4-g2 { animation: graphHeight2 2.2s infinite ease-in-out; fill: #00E5FF; }
+      .c4-g3 { animation: graphHeight3 1.8s infinite ease-in-out; fill: #76B900; }
+    </style>
+  </defs>
+
+  <!-- ==================== PROJECT 1: MICROMOUSE SIMULATOR ==================== -->
+  <g transform="translate(10, 10)">
+    <rect class="proj-card" x="0" y="0" width="425" height="195" stroke="#76B900"/>
+    <circle cx="25" cy="30" r="4" fill="#76B900" />
+    <text x="38" y="34" class="proj-title" fill="#76B900">MICROMOUSE AUTONOMOUS SIMULATOR</text>
+    <text x="38" y="52" class="proj-sub">MuJoCo Physics • ROS2 • PID Velocity Tuning • Python</text>
+
+    <!-- Animated Maze Graphic -->
+    <g transform="translate(30, 70)">
+      <rect x="0" y="0" width="130" height="90" fill="#05080f" rx="6" stroke="#76B900" stroke-width="0.5"/>
+      <!-- Grid lines -->
+      <path d="M 32 0 L 32 90 M 65 0 L 65 90 M 98 0 L 98 90" stroke="#162235" stroke-width="1"/>
+      <path d="M 0 30 L 130 30 M 0 60 L 130 60" stroke="#162235" stroke-width="1"/>
+      
+      <!-- Maze Wall Obstacles -->
+      <path d="M 32 0 L 32 30 M 65 30 L 65 90 M 98 0 L 98 60" stroke="#76B900" stroke-width="2"/>
+
+      <!-- Animated Solving Path -->
+      <path class="c1-path" d="M 16 75 L 16 45 L 48 45 L 48 15 L 82 15 L 82 75 L 114 75 L 114 15"/>
+      <circle class="c1-mouse" cx="114" cy="15" r="5"/>
+    </g>
+
+    <!-- Project Description -->
+    <g transform="translate(175, 75)">
+      <text x="0" y="16" class="proj-desc">High-speed maze exploration</text>
+      <text x="0" y="32" class="proj-desc">&amp; velocity profile optimization.</text>
+      <text x="0" y="54" class="proj-tag">> SPEED_RUN: ACTIVE</text>
+      <text x="0" y="72" class="proj-tag">> ACCEL_PROFILE: TUNED</text>
+      <text x="0" y="90" class="proj-tag">> ROS2_CONTROL: OK</text>
+    </g>
+  </g>
+
+  <!-- ==================== PROJECT 2: CHIPNEST ECE PORTAL ==================== -->
+  <g transform="translate(465, 10)">
+    <rect class="proj-card" x="0" y="0" width="425" height="195"/>
+    <circle cx="25" cy="30" r="4" fill="#00E5FF" />
+    <text x="38" y="34" class="proj-title">CHIPNEST - ECE STUDENT PORTAL</text>
+    <text x="38" y="52" class="proj-sub">React (Vite) • Node.js • Section Routines &amp; Syllabus</text>
+
+    <!-- Animated UI Dashboard Graphic -->
+    <g transform="translate(30, 70)">
+      <rect x="0" y="0" width="130" height="90" fill="#050a12" rx="6" stroke="#00E5FF" stroke-width="0.5"/>
+      <!-- Header bar -->
+      <rect x="8" y="8" width="114" height="12" fill="#0e1b2e" rx="2"/>
+      <circle cx="15" cy="14" r="2" fill="#00E5FF"/>
+      <circle cx="22" cy="14" r="2" fill="#76B900"/>
+
+      <!-- Animated Progress Indicator Bar -->
+      <text x="8" y="36" class="proj-tag" font-size="9">SECTION A/B/C ROUTINE</text>
+      <rect x="8" y="42" width="114" height="6" fill="#142338" rx="2"/>
+      <rect class="c2-bar" x="8" y="42" width="30" height="6" />
+
+      <text x="8" y="62" class="proj-tag" font-size="9">MODULE NOTES HUB</text>
+      <rect x="8" y="68" width="114" height="6" fill="#142338" rx="2"/>
+      <rect x="8" y="68" width="85" fill="#76B900" height="6" rx="2"/>
+    </g>
+
+    <g transform="translate(175, 75)">
+      <text x="0" y="16" class="proj-desc">Academic hub for 2nd year ECE.</text>
+      <text x="0" y="32" class="proj-desc">Live section routines &amp; notes.</text>
+      <text x="0" y="54" class="proj-tag">> FRONTEND: REACT (VITE)</text>
+      <text x="0" y="72" class="proj-tag">> STYLING: HTML5 / CSS3</text>
+      <text x="0" y="90" class="proj-tag">> STATUS: DEPLOYED</text>
+    </g>
+  </g>
+
+  <!-- ==================== PROJECT 3: HEMOVERSE PLATFORM ==================== -->
+  <g transform="translate(10, 225)">
+    <rect class="proj-card" x="0" y="0" width="425" height="195"/>
+    <circle cx="25" cy="30" r="4" fill="#00E5FF" />
+    <text x="38" y="34" class="proj-title">HEMOVERSE - DONOR PLATFORM</text>
+    <text x="38" y="52" class="proj-sub">MERN Stack • React • Node.js • Express • MongoDB</text>
+
+    <!-- Animated ECG Pulse Wave Graphic -->
+    <g transform="translate(30, 70)">
+      <rect x="0" y="0" width="130" height="90" fill="#090508" rx="6" stroke="#FF3366" stroke-width="0.5"/>
+      <svg x="5" y="15" width="120" height="60" viewBox="0 0 120 60">
+        <path class="c3-ecg" d="M 0 30 L 25 30 L 30 15 L 35 45 L 40 5 L 45 50 L 50 30 L 70 30 L 75 15 L 80 45 L 85 5 L 90 50 L 95 30 L 120 30"/>
+      </svg>
+    </g>
+
+    <g transform="translate(175, 75)">
+      <text x="0" y="16" class="proj-desc">Emergency blood requests &amp;</text>
+      <text x="0" y="32" class="proj-desc">verified donor management.</text>
+      <text x="0" y="54" class="proj-tag">> DB: MONGODB ATLAS</text>
+      <text x="0" y="72" class="proj-tag">> AUTH: ROLE-BASED + OTP</text>
+      <text x="0" y="90" class="proj-tag">> BACKEND: EXPRESS / NODE</text>
+    </g>
+  </g>
+
+  <!-- ==================== PROJECT 4: STM32 & IOT FIRMWARE ==================== -->
+  <g transform="translate(465, 225)">
+    <rect class="proj-card" x="0" y="0" width="425" height="195" stroke="#76B900"/>
+    <circle cx="25" cy="30" r="4" fill="#76B900" />
+    <text x="38" y="34" class="proj-title" fill="#76B900">STM32 &amp; IOT FIRMWARE</text>
+    <text x="38" y="52" class="proj-sub">Embedded C • FreeRTOS • ESP32 • MQTT Telemetry</text>
+
+    <!-- Animated Telemetry Meter Graphic -->
+    <g transform="translate(30, 70)">
+      <rect x="0" y="0" width="130" height="90" fill="#050907" rx="6" stroke="#76B900" stroke-width="0.5"/>
+      
+      <!-- Telemetry equalizer bars -->
+      <g transform="translate(20, 15)">
+        <rect x="0" y="0" width="16" height="60" fill="#0d1c12" rx="3"/>
+        <rect class="c4-g1" x="0" y="30" width="16" height="30" rx="3"/>
+
+        <rect x="32" y="0" width="16" height="60" fill="#0d1c12" rx="3"/>
+        <rect class="c4-g2" x="32" y="20" width="16" height="40" rx="3"/>
+
+        <rect x="64" y="0" width="16" height="60" fill="#0d1c12" rx="3"/>
+        <rect class="c4-g3" x="64" y="10" width="16" height="50" rx="3"/>
+      </g>
+    </g>
+
+    <g transform="translate(175, 75)">
+      <text x="0" y="16" class="proj-desc">Bare-metal microcontrollers,</text>
+      <text x="0" y="32" class="proj-desc">RTOS tasks &amp; sensor nodes.</text>
+      <text x="0" y="54" class="proj-tag">> MCU: STM32F4 / ESP32</text>
+      <text x="0" y="72" class="proj-tag">> RTOS: FREERTOS SCHEDULER</text>
+      <text x="0" y="90" class="proj-tag">> PROTOCOL: MQTT / SPI / I2C</text>
+    </g>
+  </g>
+</svg>

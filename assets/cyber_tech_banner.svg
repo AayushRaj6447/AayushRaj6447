@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%">
+  <defs>
+    <style>
+      .bg-rect {
+        fill: url(#dark-gradient);
+        stroke: #76B900;
+        stroke-width: 1.5px;
+        rx: 16px;
+      }
+
+      .name-title {
+        font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        fill: url(#text-glow-gradient);
+        letter-spacing: 6px;
+      }
+
+      .sub-title {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        fill: #00E5FF;
+        letter-spacing: 3px;
+      }
+
+      .badge-text {
+        font-family: 'Fira Code', Consolas, monospace;
+        font-size: 13px;
+        fill: #94A3B8;
+        letter-spacing: 1px;
+      }
+
+      .corner-line {
+        stroke: #76B900;
+        stroke-width: 2px;
+        fill: none;
+        opacity: 0.8;
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; fill: #00FF9D; }
+      }
+
+      .pulse-node {
+        animation: pulseGlow 2.5s infinite ease-in-out;
+        fill: #76B900;
+      }
+    </style>
+
+    <!-- Sleek Minimalist Dark Gradient -->
+    <linearGradient id="dark-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A10" />
+      <stop offset="50%" stop-color="#0B1019" />
+      <stop offset="100%" stop-color="#0E1522" />
+    </linearGradient>
+
+    <!-- Text Neon Gradient -->
+    <linearGradient id="text-glow-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#76B900" />
+      <stop offset="50%" stop-color="#00FF9D" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Dark Background -->
+  <rect class="bg-rect" x="2" y="2" width="896" height="236" />
+
+  <!-- Minimalist Clean Corner Accents -->
+  <path class="corner-line" d="M 25 45 L 25 25 L 45 25" />
+  <path class="corner-line" d="M 875 45 L 875 25 L 855 25" />
+  <path class="corner-line" d="M 25 195 L 25 215 L 45 215" />
+  <path class="corner-line" d="M 875 195 L 875 215 L 855 215" />
+
+  <!-- Status Light Node -->
+  <circle class="pulse-node" cx="450" cy="40" r="4" />
+
+  <!-- Main Name Title -->
+  <text x="450" y="110" text-anchor="middle" class="name-title">AAYUSH RAJ</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="152" text-anchor="middle" class="sub-title">ELECTRONICS &amp; COMMUNICATION ENGINEERING</text>
+  
+  <!-- Tech Domain Bar -->
+  <text x="450" y="186" text-anchor="middle" class="badge-text">EMBEDDED SYSTEMS • VLSI • ROS ROBOTICS • IOT • FULL STACK</text>
+</svg>
