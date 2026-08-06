@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- Futuristic NVIDIA Header Banner -->
-<img src="./assets/nvidia_tech_banner.png" alt="Aayush Raj - NVIDIA Tech Banner" width="100%" style="border-radius: 10px; border: 2px solid #76B900; box-shadow: 0 0 20px rgba(118, 185, 0, 0.4);"/>
+<!-- Sleek Minimalist Cyber Tech Banner -->
+<img src="./assets/cyber_tech_banner.svg" alt="Aayush Raj Header Banner" width="100%"/>
 
 <br><br>
 
-<!-- Dynamic Cyber Typing Banner with NVIDIA Green Theme -->
+<!-- Dynamic Cyber Typing Banner with Matrix Green Theme -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=76B900&center=true&vCenter=true&width=850&lines=Electronics+%26+Communication+Engineering+%40+BIT+Mesra;Embedded+Systems+Developer+%7C+STM32+%7C+RTOS+%7C+Embedded+C;VLSI+%7C+Verilog+HDL+%7C+FPGA+%7C+ASIC+Flow;Robotics+%7C+ROS2+%7C+Gazebo+%7C+Autonomous+Systems;IoT+%7C+Python+%7C+Full+Stack+Developer+(JS%2C+HTML%2C+React);Hardware+%2B+Software+%2B+AI+Integrator" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=76B900&center=true&vCenter=true&width=850&lines=Electronics+%26+Communication+Engineering+%40+BIT+Mesra;Embedded+Systems+Developer+%7C+STM32+%7C+RTOS+%7C+Embedded+C;VLSI+%7C+Verilog+HDL+%7C+FPGA+%7C+ASIC+Flow;Robotics+%7C+ROS2+%7C+Gazebo+%7C+Autonomous+Systems;Full+Stack+Developer+(MERN+%7C+React+Vite+%7C+JS+%7C+HTML);Hardware+%2B+Software+%2B+AI+Integrator" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -17,7 +17,7 @@
   <img src="https://komarev.com/ghpvc/?username=AayushRaj6447&label=CYBER%20VIEWS&color=76b900&style=for-the-badge"/>
   <img src="https://img.shields.io/github/followers/AayushRaj6447?style=for-the-badge&logo=github&color=00E5FF&logoColor=white"/>
   <img src="https://img.shields.io/github/stars/AayushRaj6447?style=for-the-badge&logo=github&color=76B900&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NVIDIA-POWERED%20THEME-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EMBEDDED%20%26%20VLSI-HIGH%20TECH-76B900?style=for-the-badge&logo=microchip&logoColor=white"/>
 </p>
 
 </div>
@@ -25,13 +25,25 @@
 ---
 
 <div align="center">
-  <h2>⚡ INDEPENDENT ANIMATED SKILL MATRIX ⚡</h2>
-  <p><i>Each domain operates as an autonomous visual sub-system with independent real-time animations.</i></p>
+  <h2>⚡ DOMAINS & SKILL MATRIX ⚡</h2>
 </div>
 
-<!-- Independently Animated Tech Grid SVG -->
+<!-- Animated Skill Grid SVG -->
 <p align="center">
-  <img src="./assets/skill_grid.svg" alt="NVIDIA Animated Skill Grid" width="100%"/>
+  <img src="./assets/skill_grid.svg" alt="Cyber Tech Skill Grid" width="100%"/>
+</p>
+
+---
+
+# 🚀 Featured Projects (Animated Showcase)
+
+<div align="center">
+  <p><i>Real-time visual telemetry animations showcasing active engineering projects.</i></p>
+</div>
+
+<!-- Animated Projects Showcase SVG -->
+<p align="center">
+  <img src="./assets/projects_grid.svg" alt="Featured Projects Animated Showcase" width="100%"/>
 </p>
 
 ---
@@ -46,18 +58,18 @@
 ```
 
 - 🎓 **ECE Undergraduate** at **Birla Institute of Technology, Mesra**
-- 🤖 Passionate about **Autonomous Robotics**, **Embedded Microcontrollers**, **FPGA Acceleration**, and **Intelligent Machines**
-- 🚀 Specialized in building end-to-end systems connecting **Physical Chips** ➔ **Low-Level Firmware** ➔ **ROS2 Nodes** ➔ **Web Interfaces**
+- 🤖 Passionate about **Autonomous Robotics**, **Embedded Microcontrollers**, **FPGA Design**, and **Intelligent Machines**
+- 🚀 Specialized in building end-to-end systems connecting **Physical Chips** ➔ **Low-Level Firmware** ➔ **ROS2 Nodes** ➔ **MERN Web Applications**
 
 ---
 
 # 🚀 Technology Stack & Domains
 
 ### 💻 Core Programming Languages
-> *Optimized for performance, embedded logic, and modern web applications (C++ removed as requested).*
+> *Optimized for hardware logic, performance, and web applications (Python, JS, HTML, C, CSS).*
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,js,html,c,ts,css" alt="Languages"/>
+  <img src="https://skillicons.dev/icons?i=python,js,html,c,css" alt="Languages"/>
 </p>
 
 ---
@@ -68,11 +80,20 @@
   <img src="https://img.shields.io/badge/Embedded%20C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/Verilog%20HDL-F34F29?style=for-the-badge&logo=codeforces&logoColor=white"/>
   <img src="https://img.shields.io/badge/VLSI%20Design-00E5FF?style=for-the-badge&logo=microchip&logoColor=black"/>
-  <img src="https://img.shields.io/badge/FPGA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FPGA-76B900?style=for-the-badge&logo=microchip&logoColor=white"/>
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
   <img src="https://img.shields.io/badge/IoT-00BCD4?style=for-the-badge"/>
+</p>
+
+---
+
+### 🌐 MERN Stack & Frontend Web Ecosystem
+> *Full Stack Development with MERN Stack (React Vite, Node.js, Express, MongoDB) & Modern Frontend (React.js, HTML5, CSS3, JavaScript).*
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,mongodb,html,css,js" alt="Full Stack MERN"/>
 </p>
 
 ---
@@ -89,14 +110,6 @@
 
 ---
 
-### 🌐 Modern Full Stack Web Ecosystem
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,mysql,firebase" alt="Full Stack"/>
-</p>
-
----
-
 ### ⚙️ Developer Environment & Tools
 
 <p align="left">
@@ -105,14 +118,14 @@
 
 ---
 
-# 🌱 Active Technical Research
+# 🌱 Active Technical Focus
 
 ```json
 {
   "firmware": ["Embedded C", "STM32 Bare-Metal & HAL", "FreeRTOS Integration"],
-  "silicon": ["SystemVerilog", "FPGA Synthesis", "ASIC Design Flow (EDA Tools)"],
+  "silicon": ["Verilog HDL", "FPGA Synthesis", "ASIC Design Flow (EDA Tools)"],
   "autonomy": ["ROS2 Nav2 Stack", "Gazebo Physics Simulation", "OpenCV Perception"],
-  "web": ["Python Backend Services", "JavaScript / TypeScript", "HTML5 & CSS Graphics"]
+  "web": ["MERN Stack (MongoDB, Express, React, Node)", "React Vite", "JavaScript / HTML5 / CSS3"]
 }
 ```
 
@@ -123,10 +136,10 @@
 | Domain | Technologies & Frameworks | Status / Expertise |
 | :--- | :--- | :--- |
 | **Embedded Firmware** | Embedded C, STM32, ESP32, Arduino, FreeRTOS | `[ACTIVE CORE]` |
-| **VLSI & Hardware** | Verilog HDL, Digital Logic, SystemVerilog, FPGA | `[ACTIVE CORE]` |
+| **VLSI & Hardware** | Verilog HDL, Digital Logic, FPGA | `[ACTIVE CORE]` |
 | **Robotics & AI** | ROS2, Gazebo, MAVLink, OpenCV, Python | `[EXPANDING]` |
-| **Web Development** | Python, JavaScript, HTML5, CSS3, React, Node.js | `[FULL STACK]` |
-| **Languages** | Python, JavaScript, HTML, C, TypeScript, CSS *(No C++)* | `[PRIMARY]` |
+| **Web Development** | MERN Stack (React Vite, Node.js, Express, MongoDB), React.js, HTML5, CSS3, JS | `[FULL STACK]` |
+| **Languages** | Python, JavaScript, HTML, C, CSS | `[PRIMARY]` |
 
 ---
 
@@ -134,7 +147,7 @@
 
 <div align="center">
 
-<!-- Custom NVIDIA themed stats card -->
+<!-- Custom Cyber Tech themed stats card -->
 <img height="185" src="https://github-readme-stats.vercel.app/api?username=AayushRaj6447&show_icons=true&bg_color=090d14&title_color=76b900&text_color=94a3b8&icon_color=00e5ff&border_color=76b900&hide_border=false" />
 
 <!-- Top languages card -->
@@ -169,10 +182,10 @@
 
 - [x] ⚡ Build bare-metal & RTOS projects on STM32 microcontrollers
 - [x] ⚡ Synthesize digital logic designs using Verilog HDL on FPGAs
-- [x] ⚡ Remove legacy dependencies (C++) in favor of Python, JavaScript & HTML stack
+- [x] ⚡ Deploy full-stack MERN applications built with React (Vite), Node.js, Express, and MongoDB
 - [/] 🤖 Develop autonomous swarm robot routines in ROS2 & Gazebo
 - [/] 🔬 Master end-to-end ASIC design flow & timing analysis
-- [ ] 📡 Deploy edge-AI inference models on NVIDIA Jetson embedded hardware
+- [ ] 📡 Deploy edge-AI inference models on high-performance embedded hardware
 
 ---
 
