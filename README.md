@@ -35,7 +35,7 @@
 
 ---
 
-# 🚀 Featured Projects (Animated Showcase)
+# 🚀 Featured Projects 
 
 <div align="center">
   <p><i>Real-time visual telemetry animations showcasing active engineering projects.</i></p>
